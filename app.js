@@ -12,6 +12,7 @@ var api_key = 'key-f25fd0c49309720ed953b1879e078543';
 var domain = 'sandbox0491af2d486a4a78803c7a3fa7aac876.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
  
+var port = process.env.PORT || 8080;
 
 
 
@@ -40,4 +41,4 @@ app.post('/email', function(req, res){
 });
 
 
-app.listen(3000, () => console.log("App running at local host 3000"));
+app.listen(port, () => console.log(`App running at http://localhost:${port}`));
