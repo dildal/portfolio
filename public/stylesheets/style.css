@@ -108,7 +108,11 @@ form
 }
 
 .padded{
-	padding: 1rem;
+	padding: 1rem;	
+}
+
+.no-left-padding{
+	padding-left: 0;
 }
 
 /*===========
@@ -322,6 +326,7 @@ media queries
 	.padded{
 		padding: 0;
 	}
+
 
 }
 
