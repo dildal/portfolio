@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300, 500" rel="stylesheet">
+	
+	
+	<title>Michael Dally</title>
+
+</head>
+<body>
+
+	<header>
+		<nav class="navbar clearfix">
+			<div class="brand"><a class="internal" href="#home">Michael Dally</a></div>
+			<div class="hamburger">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+			</div>
+			<ul>
+				<a class="internal" href="#contact"><li class="menu menu-hide">Contact</li></a>
+				<a class="internal" href="#portfolio"><li class="menu menu-hide">Portfolio</li></a>
+				<a class="internal" href="#about"><li class="menu menu-hide">About</li></a>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section id="home"> 
+		<div class="hero-container">
+			<h1>Michael Dally</h1>
+			<hr>
+			<h4>Web developer</h4>
+		</div>
+	</section>
+
+	<section id="about" class="secondary-section">
+		<div class="wrapper">
+			<h2 class="subtitle orange">About Me</h2>
+			<p>I am self-taught front end developer proficient in HTML, CSS, and Javascript.
+				I am always learning new skills, and trying to stay abreast of the current trends in 
+				web development. I love the creative possibilities in web design, but value the importance
+				of creating accessible and practical websites.  
+			</p>
+		</div>
+	</section>
+
+	<section id="portfolio" class="secondary-section">
+		<div class="wrapper">
+			<h2 class="subtitle">Portfolio</h2>
+			<div class="row clearfix">
+				<div class="col-2-lg col-md no-margin-at-md">
+					<a class="site-link" href="https://dildal.github.io/wikipedia-viewer" target="_blank">
+						<div class="site-preview">
+							<img src="/img/wikipedia-viewer.png">
+							<p class="blurb">Wikipedia Viewer. Uses wikipedia API to find ten most relevant articles.  AJAX, HTML5, CSS3, JS</p>
+					</div></a>
+				</div>
+				<div class="col-2-lg col-md no-margin-at-md">
+					<a class="site-link" href="https://dildal.github.io/calculator" target="_blank">
+						<div class="site-preview">
+							<img src="/img/calculator.png">
+							<p class="blurb">Simple javascript calculator. HTML5 CSS3 JS</p>
+					</div></a>
+				</div>
+			</div>
+
+			<div class="row clearfix">
+				<div class="col-2-lg col-md no-margin-at-md">
+					<a class="site-link" href="https://dildal.github.io/pomodoro" target="_blank">
+						<div class="site-preview">
+							<img src="/img/pomodoro.png">
+							<p class="blurb">Pomodoro clock. HTML5 CSS3 JS</p>
+					</div></a>
+				</div>
+				<div class="col-2-lg col-md no-margin-at-md">
+					<a class="site-link" href="https://dildal.github.io/simon" target="_blank">
+						<div class="site-preview">
+							<img src="/img/simon.png">
+							<p class="blurb">Classic Simon Game. HTML5 CSS3 JS</p>
+					</div></a>
+				</div>
+			</div>
+		</div>
+
+		<p class="center">See more of my work at my <a href="https://github.com/dildal" target="_blank" class="external">Github</a>
+	</section>
+
+		<section id="contact" class="secondary-section dark">
+			<div class="wrapper">
+				<div class="subtitle light">Contact</div>
+				<div class="row clearfix">
+					<div class="col-2-lg col-md">
+						<p class="padded no-left-padding">Please send me an email if you are interested in working with me, have any questions, or just want to say something nice.</p>
+					</div>
+					
+					<div class="form-group partition-right col-2-lg col-md">
+						<form action="/email" method="post">
+							<div class="form-field">
+								<label for="subject">From:</label>
+								<input type="email" name="from" id="from">
+							</div>
+							<div class="form-field">
+								<label for="subject">Subject Line:</label>
+								<input type="text" name="subject" id="subject">
+							</div>
+							<div class="form-field">
+								<label for="message">Message:</label>
+								<textarea id="message" name="message"></textarea>
+							</div>
+							<button class="email-submit" type="submit">SEND ME A MESSAGE</button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+<script type="text/javascript" src="/scripts/script.js"></script>
+
+
+</body>
+</html>
